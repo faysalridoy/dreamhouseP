@@ -1,0 +1,218 @@
+/*------Header Start -----*/
+
+*{margin:0;
+    padding: 0;}
+header{
+	
+	height: 60px;
+}
+.warper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+
+}
+.head{
+	background-color: #f3f3f3;
+}
+.logo{
+	width: 20%;
+	
+	float: left;
+}
+.logo img{
+
+	width: 100%;
+	margin-top: 5px;
+}
+.menu{
+	width: 70%;
+	margin-top: 20px;
+	float: right;
+	
+
+}
+.menu ul{
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #638bb9;
+	padding: 0px 30px;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+
+/*------Header End -----*/
+
+/*Banner Start */
+.banner{}
+
+
+.bg_banner{
+	background-image: url(../Image/architecture-clouds-daylight-driveway-259588.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.home{
+	width: 30%;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 30px;
+
+	margin-top: 70px;
+	margin-bottom: 200px;
+	
+	background-color: rgba(60,64,76,.6);
+
+}
+.home h1{
+	font-family: sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin: 10px 2px;
+
+}
+.home p{
+	font-family: sans-serif;
+	line-height: 25px;
+	color: white;
+	
+	margin: 10px 2px;
+}
+.home button{
+	width: 105px;
+    height: 33px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(62,78,99,48);
+    margin: 10px 2px;
+}
+
+
+/*Banner End */
+
+
+/*Service Start */
+
+.service{}
+.new_wraper{
+	overflow: hidden;
+	width: 87%;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.title h1{
+	font-family: sans-serif;
+	color: #638bb9;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+
+.title p{
+	font-family: sans-serif;
+	color: Gray;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	line-height: 25px;
+	text-align: center;
+}
+
+
+
+.single_item{
+	width: 27%;
+	
+	float: left;
+	text-align: center;
+	margin: 0 37px;
+}
+.single_item h2{
+	font-family: sans-serif;
+	color: Gray;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.single_item img{
+	width: 100%;
+	height: 200px;
+
+}
+.single_item p{
+	font-family: sans-serif;
+	color: Gray;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+.single_item button{width: 105px;
+    height: 33px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: #3A5779;
+    padding:8px 20px;
+}
+
+
+/*Service End */
+
+
+
+
+/*Footer Start */
+
+.footer{}
+.end_wraper{
+	overflow: hidden;
+	width: 87%;
+	margin: 0 auto;
+	padding: 40px 20px;
+	text-align: center;
+	background-color: #f3f3f3;
+	height: 100px;
+
+}
+
+.end p{
+	font-family: sans-serif;
+	color: Gray;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	line-height: 25px;
+	
+}
+
+/*Footer End */
